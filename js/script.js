@@ -1,3 +1,6 @@
+/*
+    * Menu e Seach Form Mobile *
+*/
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
