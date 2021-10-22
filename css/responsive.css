@@ -1,0 +1,88 @@
+/* 
+====================
+    Media Queries
+====================
+*/
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 3rem;
+        justify-content: space-between;
+    }
+
+    .header .logo img{
+    	height: 12rem;
+	}	
+
+    .header .navbar{
+        border-radius: 1rem 1rem 0;
+    }
+
+	.header .icons div{
+		font-size: 3rem;
+		margin-right: 1rem;
+	}
+
+	section{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{
+    	background-position: left;
+    	justify-content: center;
+    	text-align: center;
+    }
+
+    .home .content h3{
+    	font-size: 4.5rem;
+    	margin-top: 3em;
+    	margin-bottom: 1em;
+    }
+
+    .home .content p{
+    	font-size: 2.5rem;
+    	margin-bottom: 1em;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
